@@ -9,9 +9,7 @@ of stylometric features. No external dependencies.
 import re
 from collections import Counter
 
-# Common English function words (closed-class words that don't change
-# much between topics -- good stylometric signal because people use
-# them unconsciously in a consistent way).
+# Common English function words (closed-class words that don't change much between topics -- good stylometric signal because people use them unconsciously in a consistent way).
 FUNCTION_WORDS = [
     "the", "and", "of", "to", "in", "is", "that", "it", "for", "on",
     "with", "as", "was", "at", "by", "an", "be", "this", "which",
