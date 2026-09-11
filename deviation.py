@@ -1,6 +1,6 @@
 """
 deviation.py
-Member 2 - Compares a new email's features against a sender's
+Comparing a new email's features against a sender's
 historical writing profile and produces a 0-100 writing deviation
 score (plus a breakdown per feature), matching the project brief's
 output format.
@@ -22,8 +22,7 @@ NUMERIC_FEATURE_GROUPS = {
 
 # Final weighted combination -> overall writing_deviation score.
 # These are a starting point -- tune them during evaluation and note
-# in your report why you landed on them (that's literally graded
-# under "technical depth").
+
 DEFAULT_WEIGHTS = {
     "email_length": 0.20,
     "sentence_length": 0.20,
@@ -38,10 +37,8 @@ def build_sender_stats(past_emails: list[str]) -> dict:
     """
     Takes a list of a sender's PAST raw email texts and returns the
     mean + stdev for every numeric feature, plus the most common
-    greeting/signoff. This is what Member 1's profiles.json should
-    eventually store -- but you can compute it yourself right now
-    from raw emails so you're not blocked waiting on them.
-    """
+    greeting/signoff. 
+    
     all_features = [extract_features(email) for email in past_emails]
 
     stats = {}
