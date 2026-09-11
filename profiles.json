@@ -1,0 +1,232 @@
+[
+  {
+    "sender": "jeff.dasovich@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 122.7,
+    "avg_sentence_length": 9.6,
+    "vocab_richness": 0.858,
+    "comma_rate": 0.06,
+    "greeting": {
+      "Hi": 0.04,
+      "Hey": 0.01,
+      "Dear": 0.0
+    },
+    "signoff": {
+      "Best": 0.52,
+      "Thanks": 0.0
+    }
+  },
+  {
+    "sender": "kay.mann@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 38.7,
+    "avg_sentence_length": 9.5,
+    "vocab_richness": 0.897,
+    "comma_rate": 0.051,
+    "greeting": {
+      "Hi": 0.12,
+      "Hey": 0.01,
+      "Good morning": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.14,
+      "Thank you": 0.01,
+      "Regards": 0.0
+    }
+  },
+  {
+    "sender": "sara.shackleton@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 44.2,
+    "avg_sentence_length": 9.5,
+    "vocab_richness": 0.877,
+    "comma_rate": 0.039,
+    "greeting": {
+      "Hi": 0.01,
+      "Hey": 0.01
+    },
+    "signoff": {
+      "Thanks": 0.0
+    }
+  },
+  {
+    "sender": "tana.jones@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 45.0,
+    "avg_sentence_length": 13.2,
+    "vocab_richness": 0.861,
+    "comma_rate": 0.034,
+    "greeting": {
+      "Hey": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.07,
+      "Thank you": 0.01,
+      "Best": 0.0
+    }
+  },
+  {
+    "sender": "chris.germany@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 40.7,
+    "avg_sentence_length": 10.1,
+    "vocab_richness": 0.865,
+    "comma_rate": 0.03,
+    "greeting": {
+      "Hey": 0.06,
+      "Hi": 0.04
+    },
+    "signoff": {
+      "Thanks": 0.1,
+      "Sincerely": 0.01
+    }
+  },
+  {
+    "sender": "vince.kaminski@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 40.2,
+    "avg_sentence_length": 8.1,
+    "vocab_richness": 0.883,
+    "comma_rate": 0.082,
+    "greeting": {
+      "Hi": 0.01,
+      "Dear": 0.01,
+      "Hello": 0.0
+    },
+    "signoff": {}
+  },
+  {
+    "sender": "debra.perlingiere@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 45.2,
+    "avg_sentence_length": 10.0,
+    "vocab_richness": 0.907,
+    "comma_rate": 0.067,
+    "greeting": {
+      "Dear": 0.0
+    },
+    "signoff": {
+      "Regards": 0.12,
+      "Thanks": 0.04
+    }
+  },
+  {
+    "sender": "matthew.lenhart@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 23.0,
+    "avg_sentence_length": 8.3,
+    "vocab_richness": 0.902,
+    "comma_rate": 0.006,
+    "greeting": {
+      "Hey": 0.01
+    },
+    "signoff": {
+      "Thanks": 0.0
+    }
+  },
+  {
+    "sender": "gerald.nemec@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 45.7,
+    "avg_sentence_length": 9.9,
+    "vocab_richness": 0.873,
+    "comma_rate": 0.033,
+    "greeting": {
+      "Hi": 0.03
+    },
+    "signoff": {
+      "Thanks": 0.08
+    }
+  },
+  {
+    "sender": "mark.taylor@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 74.5,
+    "avg_sentence_length": 13.6,
+    "vocab_richness": 0.85,
+    "comma_rate": 0.014,
+    "greeting": {
+      "Dear": 0.01,
+      "Hey": 0.01,
+      "Hi": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.03
+    }
+  },
+  {
+    "sender": "kate.symes@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 61.1,
+    "avg_sentence_length": 11.3,
+    "vocab_richness": 0.85,
+    "comma_rate": 0.05,
+    "greeting": {
+      "Hey": 0.01,
+      "Hi": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.48,
+      "Thank you": 0.01,
+      "Sincerely": 0.0
+    }
+  },
+  {
+    "sender": "sally.beck@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 105.3,
+    "avg_sentence_length": 14.3,
+    "vocab_richness": 0.76,
+    "comma_rate": 0.027,
+    "greeting": {},
+    "signoff": {
+      "Thanks": 0.07
+    }
+  },
+  {
+    "sender": "eric.bass@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 25.0,
+    "avg_sentence_length": 9.3,
+    "vocab_richness": 0.908,
+    "comma_rate": 0.033,
+    "greeting": {
+      "Hey": 0.08,
+      "Hi": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.12,
+      "Sincerely": 0.0,
+      "Thank you": 0.0
+    }
+  },
+  {
+    "sender": "carol.clair@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 73.5,
+    "avg_sentence_length": 11.7,
+    "vocab_richness": 0.784,
+    "comma_rate": 0.017,
+    "greeting": {
+      "Hey": 0.0,
+      "Hi": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.01
+    }
+  },
+  {
+    "sender": "d..steffes@enron.com",
+    "num_emails_used": 300,
+    "avg_words": 50.2,
+    "avg_sentence_length": 8.9,
+    "vocab_richness": 0.885,
+    "comma_rate": 0.018,
+    "greeting": {
+      "Hi": 0.0
+    },
+    "signoff": {
+      "Thanks": 0.14
+    }
+  }
+]
