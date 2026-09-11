@@ -16,7 +16,7 @@ DATASET_CSV = "dataset.csv"
 
 
 def load_sender_emails(dataset_csv: str, sender: str) -> list:
-    """Load all raw email bodies for one sender from Member 1's dataset."""
+    """Load all raw email bodies."""
     df = pd.read_csv(dataset_csv)
     return df[df["sender"] == sender]["body"].tolist()
 
@@ -29,8 +29,8 @@ def main():
     all_emails = load_sender_emails(DATASET_CSV, target_sender)
 
     # Train the profile on the first 250 emails, test on the other 50 --
-    # this way "genuine" test emails were never seen while building the
-    # baseline, which is a fair test.
+    # this way "genuine" test emails were never seen while building the baseline, which is a fair test.
+ 
     train, test_genuine = all_emails[:250], all_emails[250:]
     sender_stats = build_sender_stats(train)
     print(f"  Baseline built from {len(train)} emails, "
@@ -58,8 +58,7 @@ def main():
     print(f"  median deviation: {statistics.median(forged_scores):.1f}")
     print(f"  min / max:        {min(forged_scores):.1f} / {max(forged_scores):.1f}\n")
 
-    # ---- One single example of each, so you can also see the detailed
-    #      per-feature breakdown for your report / demo ----
+  
     print("--- Example GENUINE breakdown ---")
     print(json.dumps(compare_with_profile(test_genuine[0], sender_stats), indent=2))
 
