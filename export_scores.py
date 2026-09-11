@@ -1,10 +1,7 @@
 """
 export_scores.py
-Member 2 - Generates a CSV of writing_deviation scores across ALL
-senders in the dataset, labelled genuine/impersonated. This is what
-you hand to Member 3 so they can compute precision/recall/F1/FPR
-without having to re-run your code themselves.
-
+Generates a CSV of writing_deviation scores across ALL
+senders in the dataset, labelled genuine/impersonated.
 Usage:
     python3 export_scores.py
 
