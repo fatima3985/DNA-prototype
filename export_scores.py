@@ -76,8 +76,6 @@ def main():
         writer.writerows(rows)
 
     print(f"\nSaved {len(rows)} scored rows -> {OUTPUT_CSV}")
-    print("Hand this file to Member 3 for precision/recall/F1/FPR evaluation.")
-
 
 if __name__ == "__main__":
     main()
