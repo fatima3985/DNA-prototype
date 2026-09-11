@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEC Email Analyzer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">B</div>
+
+            <div>
+                <h1>BEC Email Analyzer</h1>
+                <p>Business Email Compromise Detection</p>
+            </div>
+        </div>
+
+
+        <!-- Email Information -->
+        <div class="card">
+            <h2>Email</h2>
+
+            <div class="email-info">
+                <strong>Sender</strong>
+                <span id="sender">Sarah Morgan</span>
+            </div>
+
+            <div class="email-info">
+                <strong>Subject</strong>
+                <span id="subject">Urgent Payment Request</span>
+            </div>
+        </div>
+
+
+        <!-- Analyze Button -->
+        <button id="analyzeBtn" class="analyze-btn">
+            Analyze Email
+        </button>
+
+
+        <!-- Risk Result -->
+        <div class="risk-card">
+            <p class="section-title">Risk Assessment</p>
+
+            <div id="riskLevel" class="risk-level">
+                HIGH RISK
+            </div>
+
+            <div id="riskScore" class="risk-score">
+                87 / 100
+            </div>
+        </div>
+
+
+        <!-- Analysis Scores -->
+        <div class="card">
+            <h2>Analysis</h2>
+
+            <div class="score-item">
+                <div class="score-header">
+                    <span>Writing Style Deviation</span>
+                    <strong id="writingScore">82</strong>
+                </div>
+
+                <div class="progress">
+                    <div id="writingBar" class="progress-bar"></div>
+                </div>
+            </div>
+
+
+            <div class="score-item">
+                <div class="score-header">
+                    <span>Behavioral Risk</span>
+                    <strong id="behaviorScore">91</strong>
+                </div>
+
+                <div class="progress">
+                    <div id="behaviorBar" class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Reasons -->
+        <div class="card">
+            <h2>Why was this email flagged?</h2>
+
+            <ul id="reasons">
+                <li>Writing style differs from sender profile</li>
+                <li>Unusual urgency detected</li>
+                <li>Financial transfer request detected</li>
+                <li>Confidentiality language detected</li>
+                <li>Email is shorter than the sender's normal emails</li>
+            </ul>
+        </div>
+
+
+        <div class="footer">
+            BEC Email Analyzer • Team Project
+        </div>
+
+    </div>
+
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
