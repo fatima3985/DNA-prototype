@@ -1,10 +1,7 @@
 """
 run_demo.py
-Member 2 - End-to-end demo using Member 1's REAL dataset.csv
+ End-to-end demo using REAL dataset.csv
 (15 Enron senders x 300 emails each).
-
-This is what you run to prove your part works, and what you'll show
-in the group demo alongside Members 3 and 4.
 
 Usage:
     python3 run_demo.py
