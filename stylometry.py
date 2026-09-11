@@ -1,6 +1,6 @@
 """
 stylometry.py
-Member 2 - Feature extraction for BEC writing-style detection.
+Feature extraction for BEC writing-style detection.
 
 extract_features(email_text) turns one raw email string into a dict
 of stylometric features. No external dependencies.
